@@ -134,6 +134,7 @@ section {
 }
 
 .featured .title::before {
+  content: "";
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -144,9 +145,10 @@ section {
 }
 
 .featured .featured-content img {
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 250px;
   object-fit: cover;
+  margin-right: 30px;
 }
 
 /* about section styling */
